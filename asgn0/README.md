@@ -1,0 +1,1 @@
+Built the assignment using the textbook example code and YouTube videos provided as well as useful links linked in the asg0 description, used ChatGPT to help me understand how to approach JavaScript some debugging and some implementation issues that I had.
