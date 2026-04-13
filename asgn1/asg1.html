@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment 1</title>
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="Point.js"></script>
+        <script src="Triangle.js"></script>
+        <script src="Circle.js"></script>
+        <script src="Butterfly.js"></script>
+        <script src="asg1.js"></script>
+    </head>
+    
+    <body onload="main()">
+        <canvas id="webgl" width="400" height="400">
+            Please use a browser that supports "canvas"
+        </canvas>
+        <br><br>
+        <button type="button" id="clearCanvas">Clear Canvas</button>
+        <br><br>
+        Drawing Mode:
+        <div>
+            <button type="button" id="points">Squares</button>
+            <button type="button" id="triangles">Triangles</button>
+            <button type="button" id="circles">Circles</button>
+        </div>
+        <br><br>
+        Shape Color:
+        <div>
+            <label for="redS">Red</label>
+            <input type="range" id="redS" class="slider" name="redS" min="0" max="100">
+            <label for="greenS">Green</label>
+            <input type="range" id="greenS" class="slider" name="greenS" min="0" max="100">
+            <label for="blueS">Blue</label>
+            <input type="range" id="blueS" class="slider" name="blueS" min="0" max="100">
+        </div>
+        <br><br>
+            <label for="shapesizeS">Shape Size</label>
+            <input type="range" id="shapesizeS" class="slider" name="shapesizeS" min="5" max="40">
+            <label for="segmentS">(Circles) Segment Count</label>
+            <input type="range" id="segmentS" class="slider" name="segmentS" min="0" max="100">
+        <br><br>
+        Reference:
+        <br><br>
+        <img src="mg_butterfly.JPG" width="400" height="400">
+        <br><br>
+        <button type="button" id="drawButterfly">Draw Butterfly</button>
+        <br><br>
+        Awesome thing here (if you can't choose one color why not go for all of them!):
+        <br><br>
+        <button type="button" id="rainbowBrush">Rainbow Brush</button>
+    </body>
+</html>
