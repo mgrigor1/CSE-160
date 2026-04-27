@@ -1,0 +1,2 @@
+Utilized all the video resources and the code from there provided by CSE 160 instructor (tutorials & labs) to learn and build the program on top of the code from asg1 as well as the source code. Practiced and built on top of the example code from the textbook WebGL Programming Guide especially Ch10. Utilized ChatGPT to brainstorm poke and mouse and for debugging.
+Was assigned a cow! Sliders control all joints such as body, head, neck, legs. Poke animation is ears, nose, eyes - all moving in surprise.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment 2</title>
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="lib/cuon-matrix.js"></script>
+        <script src="Point.js"></script>
+        <script src="Triangle.js"></script>
+        <script src="Circle.js"></script>
+        <script src="Cube.js"></script>
+        <script src="asg2.js"></script>
+    </head>
+    
+    <body onload="main()">
+        <canvas id="webgl" width="400" height="400">
+            Please use a browser that supports "canvas"
+        </canvas>
+        <p id="numdot"> XXX </p>
+        <p>
+        Head <input type="range" min="-5" max="5" value="0" class="slider" id="magentaSlide">
+        <p>
+        <p>
+        Animation of head:
+        <button type="button" id="animationMagentaOnButton">ON</button>
+        <button type="button" id="animationMagentaOffButton">OFF</button>
+        <p>
+        <p>
+        Neck <input type="range" min="-10" max="10" value="0" class="slider" id="yellowSlide">
+        <p>
+        <p>
+        Animation of neck:
+        <button type="button" id="animationNeckOnButton">ON</button>
+        <button type="button" id="animationNeckOffButton">OFF</button>
+        <p>
+        <p>
+        Body <input type="range" min="-45" max="45" value="0" class="slider" id="bodySlide">
+        <p>
+        <p>
+        Animation of body:
+        <button type="button" id="animationYellowOnButton">ON</button>
+        <button type="button" id="animationYellowOffButton">OFF</button>
+        <p>
+        <p>
+        Legs <input type="range" min="-5" max="5" value="0" class="slider" id="legSlide">
+        <p>
+        <p>
+        Animation of legs:
+        <button type="button" id="animationFrontLeftOnButton">ON</button>
+        <button type="button" id="animationFrontLeftOffButton">OFF</button>
+        <p>
+        <p>
+        Knees <input type="range" min="-2" max="2" value="0" class="slider" id="kneesSlide">
+        <p>
+        <p>
+        Camera Angle <input type="range" min="-180" max="180" value="5" class="slider" id="angleSlide">
+        <p>
+    </body>
+</html>
