@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Assignment 4</title>
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="lib/cuon-matrix.js"></script>
+        <script src="Point.js"></script>
+        <script src="Triangle.js"></script>
+        <script src="Circle.js"></script>
+        <script src="Cube.js"></script>
+        <script src="Sphere.js"></script>
+        <script src="Camera.js"></script>
+        <script src="asg4.js"></script>
+    </head>
+    
+    <body onload="main()">
+        <canvas id="webgl" width="400" height="400">
+        Please use a browser that supports "canvas"
+        </canvas>
+        <p id="numdot"> XXX </p>
+        <p>
+        Normals:
+        <button type="button" id="normalOn">ON</button>
+        <button type="button" id="normalOff">OFF</button>
+        <br><br>
+        Light:
+        <button type="button" id="lightOn">ON</button>
+        <button type="button" id="lightOff">OFF</button>
+        <br><br>
+        Spot Light:
+        <button type="button" id="spotLightOn">ON</button>
+        <button type="button" id="spotLightOff">OFF</button>
+        <p>
+        <p>
+        Light X <input type="range" min="-250" max="250" value="0" class="slider" id="lightSlideX">
+        Light Y <input type="range" min="-250" max="250" value="100" class="slider" id="lightSlideY">
+        Light Z <input type="range" min="-250" max="250" value="-200" class="slider" id="lightSlideZ">
+        <p>
+        <p>
+        Light Red <input type="range" min="0" max="100" value="100" class="slider" id="lightColorR"> 
+        Light Green <input type="range" min="0" max="100" value="100" class="slider" id="lightColorG">
+        Light Blue <input type="range" min="0" max="100" value="90" class="slider" id="lightColorB">
+        <p>
+        <p>
+        Camera Angle <input type="range" min="-180" max="180" value="0" class="slider" id="angleSlide">
+        <p>
+
+    </body>
+</html>
